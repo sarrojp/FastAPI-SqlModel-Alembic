@@ -1,5 +1,4 @@
-# FastAPI + SQLModel + Alembic
-# FastAPI SQLModel Async CRUD API
+# FastAPI SQLModel Async Alembic CRUD API
 
 A modern FastAPI backend project built with:
 
@@ -139,7 +138,6 @@ http://127.0.0.1:8000/docs
 
 | Method | Endpoint | Description |
 |---|---|---|
-| GET | `/ping` | Health check |
 | GET | `/songs` | Get all songs |
 | POST | `/songs` | Create new song |
 | PUT | `/songs/{song_id}` | Update song |
@@ -173,19 +171,6 @@ python -m alembic upgrade head
   "artist": "Imagine Dragons"
 }
 ```
-
----
-
-# Future Improvements
-
-- JWT Authentication
-- Docker Support
-- Pagination
-- Search & Filtering
-- Async Testing with Pytest
-- CI/CD Pipeline
-
----
 
 # Learning Purpose
 
